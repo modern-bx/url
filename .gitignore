@@ -1,0 +1,12 @@
+/.phpunit.cache
+/.phpunit.result.cache
+/.phpdoc
+/coverage.cobertura.xml
+/report.xml
+/vendor
+/tools
+/docs
+
+.idea
+.vscode
+.DS_Store

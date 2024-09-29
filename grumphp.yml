@@ -1,0 +1,15 @@
+grumphp:
+  tasks:
+    phpunit:
+      always_execute: true
+    phpcs:
+      standard: PSR2
+      ignore_patterns:
+        - './vendor/*'
+        - '.phpstorm.meta.php'
+    phpstan:
+      level: 9
+      ignore_patterns:
+        - './vendor/*'
+        - '.phpstorm.meta.php'
+      triggered_by: [ 'php' ]
