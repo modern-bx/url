@@ -7,7 +7,7 @@ namespace ModernBx\Url;
 use function ModernBx\CommonFunctions\merge;
 
 /**
- * Обертка для манипуляций с http-адресами. Иммутабельная версия
+ * Обертка для манипуляций с http-адресами. Мутабельная версия
  */
 final class Url
 {
