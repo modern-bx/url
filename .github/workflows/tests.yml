@@ -13,10 +13,14 @@ permissions:
 
 jobs:
   tests:
-
     runs-on: ubuntu-24.04
-
     steps:
+    - name: Настройка PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.3'
+        extensions: http
+
     - uses: actions/checkout@v4
 
     - name: Валидация composer.json и composer.lock
