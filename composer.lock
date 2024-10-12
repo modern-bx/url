@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4004d4f7349893ab6681cbd2a0dca1d9",
+    "content-hash": "4ac3559be76e2c925368469197b19b3d",
     "packages": [
         {
             "name": "jakeasmith/http_build_url",
@@ -50,12 +50,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:modern-bx/common-functions.git",
-                "reference": "a1570a84d7a8c4e0c72b0ff1452077bfbf5ea72e"
+                "reference": "37d82c505dbc891b33f90e1f4ca6a316ae1ea3aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modern-bx/common-functions/zipball/a1570a84d7a8c4e0c72b0ff1452077bfbf5ea72e",
-                "reference": "a1570a84d7a8c4e0c72b0ff1452077bfbf5ea72e",
+                "url": "https://api.github.com/repos/modern-bx/common-functions/zipball/37d82c505dbc891b33f90e1f4ca6a316ae1ea3aa",
+                "reference": "37d82c505dbc891b33f90e1f4ca6a316ae1ea3aa",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
                 "source": "https://github.com/modern-bx/common-functions/tree/master",
                 "issues": "https://github.com/modern-bx/common-functions/issues"
             },
-            "time": "2024-09-28T13:28:24+00:00"
+            "time": "2024-09-29T08:34:41+00:00"
         }
     ],
     "packages-dev": [
@@ -1182,16 +1182,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.2.0",
+            "version": "v5.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "23c79fbbfb725fb92af9bcf41065c8e9a0d49ddb"
+                "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/23c79fbbfb725fb92af9bcf41065c8e9a0d49ddb",
-                "reference": "23c79fbbfb725fb92af9bcf41065c8e9a0d49ddb",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8eea230464783aa9671db8eea6f8c6ac5285794b",
+                "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b",
                 "shasum": ""
             },
             "require": {
@@ -1234,9 +1234,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.2.0"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.3.1"
             },
-            "time": "2024-09-15T16:40:33+00:00"
+            "time": "2024-10-08T18:51:32+00:00"
         },
         {
             "name": "ondram/ci-detector",
@@ -1736,12 +1736,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "e3810e5e638cd91f6f6d82059c60ad85f2b3ffb1"
+                "reference": "f4255120464a266faa42ee04f47f29eab143d1bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/e3810e5e638cd91f6f6d82059c60ad85f2b3ffb1",
-                "reference": "e3810e5e638cd91f6f6d82059c60ad85f2b3ffb1",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/f4255120464a266faa42ee04f47f29eab143d1bb",
+                "reference": "f4255120464a266faa42ee04f47f29eab143d1bb",
                 "shasum": ""
             },
             "require": {
@@ -1799,7 +1799,7 @@
                 "issues": "https://github.com/phpspec/prophecy/issues",
                 "source": "https://github.com/phpspec/prophecy/tree/master"
             },
-            "time": "2024-08-27T07:52:54+00:00"
+            "time": "2024-10-11T20:39:08+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
@@ -3666,12 +3666,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "97987da6a80fdb9001a95747c12784de9631dd05"
+                "reference": "f793dd5a7d9ae9923e35d0503d08ba734cec1d79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/97987da6a80fdb9001a95747c12784de9631dd05",
-                "reference": "97987da6a80fdb9001a95747c12784de9631dd05",
+                "url": "https://api.github.com/repos/symfony/console/zipball/f793dd5a7d9ae9923e35d0503d08ba734cec1d79",
+                "reference": "f793dd5a7d9ae9923e35d0503d08ba734cec1d79",
                 "shasum": ""
             },
             "require": {
@@ -3752,7 +3752,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:18:03+00:00"
+            "time": "2024-10-09T08:40:40+00:00"
         },
         {
             "name": "symfony/dependency-injection",
@@ -3760,12 +3760,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "142dd92a8854cce56e19609177a29abe2e256244"
+                "reference": "0484e9c20aae17388813ec51ef280436c5174fb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/142dd92a8854cce56e19609177a29abe2e256244",
-                "reference": "142dd92a8854cce56e19609177a29abe2e256244",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/0484e9c20aae17388813ec51ef280436c5174fb8",
+                "reference": "0484e9c20aae17388813ec51ef280436c5174fb8",
                 "shasum": ""
             },
             "require": {
@@ -3833,7 +3833,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:18:03+00:00"
+            "time": "2024-10-09T08:40:40+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -4140,12 +4140,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "d761de35c00216df48782755fcbc1b67be1c56e2"
+                "reference": "d4524462b56a7d78f7aab2e6c0938691baba3522"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/d761de35c00216df48782755fcbc1b67be1c56e2",
-                "reference": "d761de35c00216df48782755fcbc1b67be1c56e2",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/d4524462b56a7d78f7aab2e6c0938691baba3522",
+                "reference": "d4524462b56a7d78f7aab2e6c0938691baba3522",
                 "shasum": ""
             },
             "require": {
@@ -4198,7 +4198,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:18:03+00:00"
+            "time": "2024-10-09T08:40:40+00:00"
         },
         {
             "name": "symfony/finder",
@@ -4206,12 +4206,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "573f1f88023fb455de601fdb0c62323db5cd4c0d"
+                "reference": "daea9eca0b08d0ed1dc9ab702a46128fd1be4958"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/573f1f88023fb455de601fdb0c62323db5cd4c0d",
-                "reference": "573f1f88023fb455de601fdb0c62323db5cd4c0d",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/daea9eca0b08d0ed1dc9ab702a46128fd1be4958",
+                "reference": "daea9eca0b08d0ed1dc9ab702a46128fd1be4958",
                 "shasum": ""
             },
             "require": {
@@ -4262,7 +4262,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:18:03+00:00"
+            "time": "2024-10-01T08:30:56+00:00"
         },
         {
             "name": "symfony/options-resolver",
@@ -4881,12 +4881,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "7e9bd70f76fd32c4f01a00877c1c3938f52233bd"
+                "reference": "ae7e10614254ed62daa0774bb3045550d4ca96ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/7e9bd70f76fd32c4f01a00877c1c3938f52233bd",
-                "reference": "7e9bd70f76fd32c4f01a00877c1c3938f52233bd",
+                "url": "https://api.github.com/repos/symfony/string/zipball/ae7e10614254ed62daa0774bb3045550d4ca96ec",
+                "reference": "ae7e10614254ed62daa0774bb3045550d4ca96ec",
                 "shasum": ""
             },
             "require": {
@@ -4960,7 +4960,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-20T08:31:44+00:00"
+            "time": "2024-09-30T20:57:26+00:00"
         },
         {
             "name": "symfony/var-exporter",
@@ -5222,6 +5222,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "jakeasmith/http_build_url": 20,
         "modern-bx/common-functions": 20
     },
     "prefer-stable": false,
@@ -5229,8 +5230,7 @@
     "platform": {
         "php": ">=8.2",
         "ext-json": "*",
-        "ext-mbstring": "*",
-        "ext-http": "*"
+        "ext-mbstring": "*"
     },
     "platform-dev": [],
     "platform-overrides": {
