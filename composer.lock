@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4ac3559be76e2c925368469197b19b3d",
+    "content-hash": "11e5cd6d90bda85acc7bcee85e6b6789",
     "packages": [
         {
             "name": "jakeasmith/http_build_url",
@@ -50,18 +50,18 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:modern-bx/common-functions.git",
-                "reference": "37d82c505dbc891b33f90e1f4ca6a316ae1ea3aa"
+                "reference": "66cbccec49a27f723321f17ddca281336afc3772"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modern-bx/common-functions/zipball/37d82c505dbc891b33f90e1f4ca6a316ae1ea3aa",
-                "reference": "37d82c505dbc891b33f90e1f4ca6a316ae1ea3aa",
+                "url": "https://api.github.com/repos/modern-bx/common-functions/zipball/66cbccec49a27f723321f17ddca281336afc3772",
+                "reference": "66cbccec49a27f723321f17ddca281336afc3772",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": ">=8.2"
+                "php": ">=8.1"
             },
             "require-dev": {
                 "phpro/grumphp": "1.15.*",
@@ -118,7 +118,7 @@
                 "source": "https://github.com/modern-bx/common-functions/tree/master",
                 "issues": "https://github.com/modern-bx/common-functions/issues"
             },
-            "time": "2024-09-29T08:34:41+00:00"
+            "time": "2024-10-12T10:57:29+00:00"
         }
     ],
     "packages-dev": [
@@ -4877,20 +4877,20 @@
         },
         {
             "name": "symfony/string",
-            "version": "7.2.x-dev",
+            "version": "6.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "ae7e10614254ed62daa0774bb3045550d4ca96ec"
+                "reference": "38371c60c71c72b3d64d8d76f6b1bb81a2cc3627"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/ae7e10614254ed62daa0774bb3045550d4ca96ec",
-                "reference": "ae7e10614254ed62daa0774bb3045550d4ca96ec",
+                "url": "https://api.github.com/repos/symfony/string/zipball/38371c60c71c72b3d64d8d76f6b1bb81a2cc3627",
+                "reference": "38371c60c71c72b3d64d8d76f6b1bb81a2cc3627",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2",
+                "php": ">=8.1",
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-intl-grapheme": "~1.0",
                 "symfony/polyfill-intl-normalizer": "~1.0",
@@ -4900,12 +4900,11 @@
                 "symfony/translation-contracts": "<2.5"
             },
             "require-dev": {
-                "symfony/emoji": "^7.1",
-                "symfony/error-handler": "^6.4|^7.0",
-                "symfony/http-client": "^6.4|^7.0",
-                "symfony/intl": "^6.4|^7.0",
+                "symfony/error-handler": "^5.4|^6.0|^7.0",
+                "symfony/http-client": "^5.4|^6.0|^7.0",
+                "symfony/intl": "^6.2|^7.0",
                 "symfony/translation-contracts": "^2.5|^3.0",
-                "symfony/var-exporter": "^6.4|^7.0"
+                "symfony/var-exporter": "^5.4|^6.0|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -4944,7 +4943,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/7.2"
+                "source": "https://github.com/symfony/string/tree/6.4"
             },
             "funding": [
                 {
@@ -4960,29 +4959,30 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-30T20:57:26+00:00"
+            "time": "2024-09-25T14:18:03+00:00"
         },
         {
             "name": "symfony/var-exporter",
-            "version": "7.2.x-dev",
+            "version": "6.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "cf99b966ae970ed3fc373ec93ff18a56cad6b85c"
+                "reference": "0f605f72a363f8743001038a176eeb2a11223b51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/cf99b966ae970ed3fc373ec93ff18a56cad6b85c",
-                "reference": "cf99b966ae970ed3fc373ec93ff18a56cad6b85c",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/0f605f72a363f8743001038a176eeb2a11223b51",
+                "reference": "0f605f72a363f8743001038a176eeb2a11223b51",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2"
+                "php": ">=8.1",
+                "symfony/deprecation-contracts": "^2.5|^3"
             },
             "require-dev": {
                 "symfony/property-access": "^6.4|^7.0",
                 "symfony/serializer": "^6.4|^7.0",
-                "symfony/var-dumper": "^6.4|^7.0"
+                "symfony/var-dumper": "^5.4|^6.0|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -5020,7 +5020,7 @@
                 "serialize"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-exporter/tree/7.2"
+                "source": "https://github.com/symfony/var-exporter/tree/6.4"
             },
             "funding": [
                 {
@@ -5036,7 +5036,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:21:43+00:00"
+            "time": "2024-09-25T14:18:03+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -5228,13 +5228,13 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.2",
+        "php": ">=8.1",
         "ext-json": "*",
         "ext-mbstring": "*"
     },
     "platform-dev": [],
     "platform-overrides": {
-        "php": "8.2"
+        "php": "8.1"
     },
     "plugin-api-version": "2.6.0"
 }
